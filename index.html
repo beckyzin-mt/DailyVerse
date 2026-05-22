@@ -416,8 +416,8 @@ function compareByBibleRef(a,b){
 async function load(){
   // Google Drive direct-download endpoints (tries a couple, in case one is blocked)
   const urls=[
-    `https://drive.google.com/uc?export=download&id=${DRIVE_FILE_ID}`,
-    `https://drive.usercontent.google.com/download?id=${DRIVE_FILE_ID}&export=download`
+    `https://github.com/beckyzin-mt/DailyVerse/blob/main/Verses.json`,
+    `https://github.com/beckyzin-mt/DailyVerse/blob/main/Verses.json&export=download`
   ];
   let lastErr;
   for(const url of urls){
